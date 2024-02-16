@@ -37,6 +37,15 @@ export function Header(): JSX.Element {
                 Blog
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                href="/zoo"
+                className="p-3 text-gray-500 hover:text-black"
+                activeClassName="text-gray-900"
+              >
+                Zoo
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </Container>

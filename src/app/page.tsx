@@ -6,6 +6,8 @@ import { PageHeader } from "@/components/page-header";
 import socialLinks from "@/content/social-links.json";
 import { SiGithub, SiLinkedin, SiTwitter, SiYoutube } from "react-icons/si";
 
+export const runtime = "edge";
+
 export default function Home() {
   return (
     <Container className="my-20 lg:my-32">
