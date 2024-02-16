@@ -102,7 +102,7 @@ export default function Home() {
             <p className="leading-8"></p>
           </div>
           <div className="col-span-3 flex flex-col gap-y-40">
-            <div className="bg-gradient-to-t from-transparent to-gray-100 p-8 rounded-xl">
+            <div className="bg-gradient-to-t from-transparent to-zinc-100 p-8 rounded-xl">
               <h2 className="mt-0">
                 Fun drives me,{" "}
                 <span className="text-neutral-400 font-normal">
