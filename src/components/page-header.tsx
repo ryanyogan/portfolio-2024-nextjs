@@ -17,7 +17,7 @@ export function PageHeader({ title, subtitle, children }: Props): JSX.Element {
         ) : null}
       </div>
       {children ? (
-        <div className="col-span-full flex flex-row justify-center mt-20 sm:mt-0 lg:col-span-3 lg:justify-self-end text-gray-500 font-medium">
+        <div className="col-span-full flex flex-row justify-start mt-10 sm:mt-0 lg:col-span-3 lg:justify-self-end text-gray-500 font-medium">
           {children}
         </div>
       ) : null}

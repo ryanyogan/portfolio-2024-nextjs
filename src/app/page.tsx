@@ -68,7 +68,7 @@ export default function Home() {
       <main>
         <Grid className="my-20 lg:my-32 gap-y-20 text-xl">
           <div className="col-span-3">
-            <h2 className="mt-8">My Chat Gippity Journey 🤣</h2>
+            <h2 className="mt-8">My Chat-GPT Story 🤣</h2>
             <p className="leading-8">
               Embarking on my tech journey with a 386 computer, I quickly became
               the family IT department, graduating from building PCs to
