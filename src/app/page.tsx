@@ -124,10 +124,15 @@ export default function Home() {
                   work experience.
                 </p>
                 <p>
-                  To paraphrase Matthew McConaughey, it's the "Why, Oh, You." My
-                  drive is simple, I want you to be happy, the best user
-                  experience, the best developer experience, the most kick-ass
-                  work experience.
+                  When it comes to the technicals, I have enjoyed the sub-title
+                  of Generalist. I see value Rails, Django, Go, Elixir, Node,
+                  .NET, Swift, React, Svelte, why yes; SQL and BASH!, VIM since
+                  the iPhone release 📱.
+                </p>
+                <p>
+                  I love it all, I see value in the proper tool for the job
+                  these days. Moons ago, yeah, I would have bike-shedded with
+                  you on `let vs const` 🤷
                 </p>
               </div>
 
