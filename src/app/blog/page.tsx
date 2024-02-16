@@ -8,9 +8,9 @@ export default function BlogPage() {
         title={<>A blog</>}
         subtitle={<>Are you ready for some serious ADHD?</>}
       ></PageHeader>
-      <p className="text-xs font-bold text-slate-8000">
+      <p className="text-sm font-bold text-slate-700">
         I told you I would do it! Allow me a day or so, I did not like the old
-        site...
+        site... Hold me to it, I wrote this at 1:38AM on Feb 16th, 2024.
       </p>
     </Container>
   );

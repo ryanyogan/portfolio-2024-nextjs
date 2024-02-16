@@ -22,6 +22,12 @@ export function Footer(): JSX.Element {
               </a>
               .
             </p>
+            <p className="text-xs text-slate-400 mt-1 mb-5">
+              Design augmented and inspired from{" "}
+              <a href="https://kettanaito.com/" target="_blank">
+                https://kettanaito.com/
+              </a>
+            </p>
           </div>
           <ul className="lg:col-start-5 space-y-1 lg:text-right">
             <li>
