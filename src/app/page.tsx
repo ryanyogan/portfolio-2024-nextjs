@@ -4,6 +4,7 @@ import { Grid } from "@/components/grid";
 import { PageHeader } from "@/components/page-header";
 
 import socialLinks from "@/content/social-links.json";
+import Link from "next/link";
 import { SiGithub, SiLinkedin, SiTwitter, SiYoutube } from "react-icons/si";
 
 export const runtime = "edge";
@@ -140,6 +141,34 @@ export default function Home() {
             </div>
           </div>
         </Grid>
+
+        <hr />
+
+        {/* Articles Section */}
+        <section className="my-20 lg:my-32">
+          <header className="text-xl">
+            <Grid>
+              <div className="col-span-3">
+                <h2 className="mt-0">Writing</h2>
+                <p className="leading-8">
+                  I made a commitment to 2024 that I will work on being open,
+                  asking for help, and publically writing. Let's see if I can
+                  stick to it this time. I will ramble about leadership,
+                  engineering, life, and soap-box... why not, my mom is most
+                  likely a majority of my traffic.
+                </p>
+              </div>
+            </Grid>
+          </header>
+          <Grid className="my-16 gap-y-20 justify-center sm:justify-start">
+            <div></div>
+          </Grid>
+          <footer className="text-center mt-16">
+            <Link href="/blog" className="button px-14 py-2">
+              See more posts
+            </Link>
+          </footer>
+        </section>
       </main>
     </Container>
   );
