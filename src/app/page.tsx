@@ -73,11 +73,19 @@ export default function Home() {
               Embarking on my tech journey with a 386 computer, I quickly became
               the family IT department, graduating from building PCs to
               conjuring AOL "proggies" in Visual Basic. My love affair with
-              server racks in chilly rooms was just the beginning. Fast forward
-              through a symphony of C#, PHP spells, and Rails-powered
-              rollercoasters, and you'll find me professing my love for all
-              things engineering. These days, I'm crafting video game
-              masterpieces in Rust—so "unique" they're practically art, and
+              server racks in chilly rooms was just the beginning, and my entry
+              into{" "}
+              <a
+                className="underline text-indigo-600 hover:text-indigo-500"
+                href="https://www.browardcenter.org/"
+                target="_blank"
+              >
+                theater
+              </a>
+              ! Fast forward through a symphony of C#, PHP spells, and
+              Rails-powered rollercoasters, and you'll find me professing my
+              love for all things engineering. These days, I'm crafting video
+              game masterpieces in Rust—so "unique" they're practically art, and
               hoarding leadership books like they're going out of style. My
               toolkit? A kaleidoscope of TypeScript frameworks so infamous, they
               dare not speak their names.
