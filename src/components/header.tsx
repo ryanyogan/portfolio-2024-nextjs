@@ -21,7 +21,7 @@ export function Header(): JSX.Element {
                 activeClassName="text-slate-900"
                 exact={true}
               >
-                About me
+                Me
               </NavLink>
             </li>
             <li>
