@@ -31,9 +31,15 @@ export default function OurZoo() {
             <span className="text-neutral-400 font-normal">we love 🐱</span>
           </>
         }
-        subtitle="I am fairly certain we have the oddest cats on this planet, have yet to
-        check others 🚀. We take way too many damn pictures of these little
-        stinkers. 🙀"
+        subtitle={
+          <>
+            I am fairly certain we have the oddest cats on this planet, have yet
+            to check others 🚀.
+            <br />
+            <br />
+            We take way too many damn pictures of these little stinkers. 🙀
+          </>
+        }
       ></PageHeader>
 
       <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6">

@@ -102,7 +102,12 @@ export default function Home() {
           </div>
           <div className="col-span-3 flex flex-col gap-y-40">
             <div className="bg-gradient-to-t from-transparent to-gray-100 p-8 rounded-xl">
-              <h2 className="mt-0">Fun drives me, you motivate me</h2>
+              <h2 className="mt-0">
+                Fun drives me,{" "}
+                <span className="text-neutral-400 font-normal">
+                  you motivate me
+                </span>
+              </h2>
               <div className="leading-8">
                 <p>
                   My drive is simple, I want you to be happy, the best user
@@ -116,10 +121,13 @@ export default function Home() {
                   work experience.
                 </p>
               </div>
-            </div>
 
-            <div className="bg-gradient-to-t from-transparent to-pink-100 p-8 rounded-xl">
-              <h2 className="mt-0">My loves, the reasons I work</h2>
+              <h2 className="mt-10">
+                My loves,{" "}
+                <span className="text-neutral-400 font-normal">
+                  the reason I work
+                </span>
+              </h2>
               <div className="leading-8">
                 <ul>
                   <li>👨‍👩‍👦‍👦 is my love.</li>
