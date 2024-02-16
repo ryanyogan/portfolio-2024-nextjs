@@ -20,7 +20,7 @@ export default function Home() {
           </>
         }
       >
-        <ul className="-mr-5 flex items-center gap-2 text-4xl">
+        <ul className="sm:-mr-5 -ml-5 flex items-center gap-2 text-4xl">
           <li>
             <a
               href={socialLinks.linkedin}
