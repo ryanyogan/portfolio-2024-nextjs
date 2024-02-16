@@ -151,11 +151,18 @@ export default function Home() {
               <div className="col-span-3">
                 <h2 className="mt-0">Writing</h2>
                 <p className="leading-8">
-                  I made a commitment to 2024 that I will work on being open,
-                  asking for help, and publically writing. Let's see if I can
-                  stick to it this time. I will ramble about leadership,
-                  engineering, life, and soap-box... why not, my mom is most
-                  likely a majority of my traffic.
+                  I made a commitment to 2024 that I will work on being open,{" "}
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/feed/update/urn:li:activity:7161089259175645184/"
+                    className="underline underline-offset-2 text-blue-600"
+                  >
+                    asking for help,
+                  </a>{" "}
+                  and publically writing. Let's see if I can stick to it this
+                  time. I will ramble about leadership, engineering, life, and
+                  soap-box... why not, my mom is most likely a majority of my
+                  traffic.
                 </p>
               </div>
             </Grid>

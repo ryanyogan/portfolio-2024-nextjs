@@ -18,7 +18,7 @@ export function Header(): JSX.Element {
               <NavLink
                 href="/"
                 className="p-3 text-slate-500 hover:text-black"
-                activeClassName="text-slate-900 underline"
+                activeClassName="text-slate-900"
                 exact={true}
               >
                 About me
@@ -28,7 +28,7 @@ export function Header(): JSX.Element {
               <NavLink
                 href="/blog"
                 className="p-3 text-slate-500 hover:text-black"
-                activeClassName="text-slate-900 underline"
+                activeClassName="text-slate-900"
               >
                 Blog
               </NavLink>
@@ -37,7 +37,7 @@ export function Header(): JSX.Element {
               <NavLink
                 href="/zoo"
                 className="p-3 text-slate-500 hover:text-black"
-                activeClassName="text-slate-900 underline"
+                activeClassName="text-slate-900"
               >
                 Zoo
               </NavLink>
