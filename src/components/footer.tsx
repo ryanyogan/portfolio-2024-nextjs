@@ -10,7 +10,7 @@ export function Footer(): JSX.Element {
         <Grid>
           <div className="col-span-2 lg:col-span-3">
             <p>© {new Date().getFullYear()} Ryan Yogan.</p>
-            <p className="mt-1 text-sm">
+            <p className="mt-1 text-sm mb-10">
               All content of this website is distributed under the{" "}
               <a
                 href="https://creativecommons.org/licenses/by-nc/4.0/"
@@ -21,12 +21,6 @@ export function Footer(): JSX.Element {
                 CC BY-NC license
               </a>
               .
-            </p>
-            <p className="text-xs text-slate-400 mt-1 mb-5">
-              Design augmented and inspired from{" "}
-              <a href="https://kettanaito.com/" target="_blank">
-                https://kettanaito.com/
-              </a>
             </p>
           </div>
           <ul className="lg:col-start-5 space-y-1 lg:text-right">
