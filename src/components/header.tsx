@@ -39,7 +39,7 @@ export function Header(): JSX.Element {
                 className="p-3 text-slate-500 hover:text-black"
                 activeClassName="text-slate-900"
               >
-                Zoo
+                🐱
               </NavLink>
             </li>
           </ul>
