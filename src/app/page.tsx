@@ -116,7 +116,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-t from-transparent to-orange-100 p-8 rounded-xl">
+            <div className="bg-gradient-to-t from-transparent to-pink-100 p-8 rounded-xl">
               <h2 className="mt-0">My loves, the reasons I work</h2>
               <div className="leading-8">
                 <ul>
