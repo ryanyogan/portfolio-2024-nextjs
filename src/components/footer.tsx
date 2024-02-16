@@ -84,12 +84,12 @@ export function Footer(): JSX.Element {
             </li>
             <li>
               <a
-                href={socialLinks.youtube}
+                href={socialLinks.discord}
                 target="_blank"
                 rel="noreferrer"
                 className="py-1 inline-block hover:text-black hover:underline"
               >
-                YouTube
+                Discord
               </a>
             </li>
           </ul>

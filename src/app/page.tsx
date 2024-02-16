@@ -5,7 +5,7 @@ import { PageHeader } from "@/components/page-header";
 
 import socialLinks from "@/content/social-links.json";
 import Link from "next/link";
-import { SiGithub, SiLinkedin, SiTwitter, SiYoutube } from "react-icons/si";
+import { SiDiscord, SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
 
 export const runtime = "edge";
 
@@ -53,12 +53,12 @@ export default function Home() {
           </li>
           <li>
             <a
-              href={socialLinks.youtube}
+              href={socialLinks.discord}
               target="_blank"
               rel="noreferrer"
               className="inline-block p-5 hover:text-gray-800"
             >
-              <SiYoutube />
+              <SiDiscord />
             </a>
           </li>
         </ul>
