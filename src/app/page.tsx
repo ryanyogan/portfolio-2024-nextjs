@@ -16,52 +16,54 @@ export default function Home() {
         title={
           <>
             Hi! 👋 I&apos;m <span className="text-indigo-500">Ryan Yogan</span>,
-            I am an engineering leader, and complete aviation nerd.
+            I am an engineering leader and aviation nerd.
           </>
         }
       >
-        <ul className="sm:-mr-5 -ml-5 flex items-center gap-2 text-4xl">
-          <li>
-            <a
-              href={socialLinks.linkedin}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block p-5 hover:text-gray-800"
-            >
-              <SiLinkedin />
-            </a>
-          </li>
-          <li>
-            <a
-              href={socialLinks.twitter}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block p-5 hover:text-gray-800"
-            >
-              <SiTwitter />
-            </a>
-          </li>
-          <li>
-            <a
-              href={socialLinks.github}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block p-5 hover:text-gray-800"
-            >
-              <SiGithub />
-            </a>
-          </li>
-          <li>
-            <a
-              href={socialLinks.discord}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block p-5 hover:text-gray-800"
-            >
-              <SiDiscord />
-            </a>
-          </li>
-        </ul>
+        <div className="flex flex-col">
+          <ul className="text-slate-400 flex sm:-mr-5 w-full mt-2 sm:mt-0 -ml-5 flex-row justify-start gap-2 text-4xl">
+            <li>
+              <a
+                href={socialLinks.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block p-5 hover:text-slate-800"
+              >
+                <SiLinkedin />
+              </a>
+            </li>
+            <li>
+              <a
+                href={socialLinks.twitter}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block p-5 hover:text-gray-800"
+              >
+                <SiTwitter />
+              </a>
+            </li>
+            <li>
+              <a
+                href={socialLinks.github}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block p-5 hover:text-gray-800"
+              >
+                <SiGithub />
+              </a>
+            </li>
+            <li>
+              <a
+                href={socialLinks.discord}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block p-5 hover:text-gray-800"
+              >
+                <SiDiscord />
+              </a>
+            </li>
+          </ul>
+        </div>
       </PageHeader>
 
       {/** Hero Introduction */}

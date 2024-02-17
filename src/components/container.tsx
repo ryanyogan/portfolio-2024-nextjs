@@ -8,6 +8,8 @@ export function Container({
   className?: string;
 }): JSX.Element {
   return (
-    <div className={cn("px-5 max-w-6xl mx-auto", className)}>{children}</div>
+    <div className={cn("sm:px-20 px-5 max-w-6xl mx-auto", className)}>
+      {children}
+    </div>
   );
 }
